@@ -1,7 +1,7 @@
 # 장영하 포트폴리오 v2023
 
 시작 : _**2023년 02월 15일**_<br/>
-종료 : _**2023년**_   
+종료 : _**2023년**_   gi
 
 
 ## 마크다운 표시
@@ -81,3 +81,24 @@ ___
 ***
 
 ---
+
+
+
+## git 올리기
+TERINAL> BASH
+1. git -v
+1. git -init
+1. git config --global core.autocrlf true
+1. git config --global user.name "jang0ha"
+1. git config --global user.email "jang0ha@gmail.com"
+1. git config --list > q빠져나오기
+
+---여기까지 한번만 하면됨
+
+1. git status
+1. git add . 
+1. git status (버전관리할 파일 나오겠다)
+1. git commit -m "start project"
+    1. git log(커밋 로그 확인) > 빠져나오기q
+1. git remote add origin 주소
+1. git push origin master
